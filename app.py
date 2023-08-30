@@ -119,7 +119,7 @@ def buy():
         return redirect("/")
 
     if request.method == "GET":
-        return render_template("buy.ht
+        return render_template("buy.html")
 
 
 
